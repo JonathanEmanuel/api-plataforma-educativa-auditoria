@@ -1,0 +1,15 @@
+{
+  "name": "api-plataforma-educativa-auditoria",
+  "version": "1.0.0",
+  "description": "API educativa para una actividad didáctica de auditoría de desarrollo seguro",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "audit:deps": "npm audit"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  }
+}

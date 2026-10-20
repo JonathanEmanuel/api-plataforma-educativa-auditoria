@@ -7,8 +7,6 @@ const grades = [
   { id: 103, studentId: 3, materia: "Bases de Datos", nota: 7 }
 ];
 
-// HALLAZGO INTENCIONAL 8: el endpoint recibe un studentId y devuelve sus
-// calificaciones sin verificar identidad ni autorización sobre ese recurso.
 router.get("/student/:studentId", (req, res) => {
   const studentId = Number(req.params.studentId);
   const result = grades.filter((grade) => grade.studentId === studentId);

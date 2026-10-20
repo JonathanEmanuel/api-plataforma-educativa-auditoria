@@ -1,8 +1,8 @@
 # Trabajo práctico — Auditoría de desarrollo seguro
 
 **Materia:** Seguridad e Integridad  
-**Modalidad:** Trabajo en grupos  
-**Producto:** Checklist completado + informe de hallazgos
+**Modalidad:** trabajo en grupos  
+**Producto:** checklist completado + informe de hallazgos
 
 ## Situación
 

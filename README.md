@@ -1,4 +1,4 @@
-# API de plataforma educativa — Actividad de auditoría
+# API de plataforma educativa — actividad de auditoría
 
 Este proyecto está preparado para una actividad de la materia **Seguridad e Integridad**.
 
@@ -44,12 +44,12 @@ La salida puede variar según la fecha, el árbol instalado y las fuentes de avi
 ## Alcance
 
 La actividad principal aborda:
-- Secretos y credenciales.
-- Configuración.
-- Errores y registros.
-- Exposición de datos.
-- Control de acceso y mínimo privilegio.
-- Revisión de dependencias.
+- secretos y credenciales;
+- configuración;
+- errores y registros;
+- exposición de datos;
+- control de acceso y mínimo privilegio;
+- revisión de dependencias.
 
 SQL Injection y XSS no son el foco de esta versión. Se pueden tratar en la clase siguiente.
 

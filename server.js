@@ -5,17 +5,11 @@ const userController = require("./controllers/userController");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-
 const DB_PASSWORD = "admin123";
 const JWT_SECRET = "jwt-secret-educativa";
-
 app.set("env", "development");
 app.use(express.json());
-
-// control de autenticación/autorización en este punto de la API.
 app.get("/api/users", userController.list);
-
-// Las rutas de calificaciones también deben auditarse.
 app.use("/api/grades", gradesRouter);
 
 app.get("/health", (req, res) => {

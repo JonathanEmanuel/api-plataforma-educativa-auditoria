@@ -44,12 +44,12 @@ La salida puede variar según la fecha, el árbol instalado y las fuentes de avi
 ## Alcance
 
 La actividad principal aborda:
-- secretos y credenciales;
-- configuración;
-- errores y registros;
-- exposición de datos;
-- control de acceso y mínimo privilegio;
-- revisión de dependencias.
+- Secretos y credenciales.
+- Configuración.
+- Errores y registros.
+- Exposición de datos.
+- Control de acceso y mínimo privilegio.
+- Revisión de dependencias.
 
 SQL Injection y XSS no son el foco de esta versión. Se pueden tratar en la clase siguiente.
 

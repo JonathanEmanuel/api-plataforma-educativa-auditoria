@@ -6,6 +6,9 @@ const users = [
 
 exports.list = async (req, res) => {
   try {
+    if (req.query.simulateError === "true") {
+      throw new Error("Error de prueba: detalle interno simulado");
+    }
     res.json({ data: users });
   } catch (error) {
     res.status(500).json({
@@ -14,3 +17,4 @@ exports.list = async (req, res) => {
     });
   }
 };
+

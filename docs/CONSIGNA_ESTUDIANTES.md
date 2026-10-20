@@ -1,8 +1,8 @@
 # Trabajo práctico — Auditoría de desarrollo seguro
 
 **Materia:** Seguridad e Integridad  
-**Modalidad:** trabajo en grupos  
-**Producto:** checklist completado + informe de hallazgos
+**Modalidad:** Trabajo en grupos  
+**Producto:** Checklist completado + informe de hallazgos
 
 ## Situación
 
@@ -76,7 +76,7 @@ Seleccionen los **tres hallazgos prioritarios** y expliquen por qué deberían r
 1. Checklist completo.
 2. Informe de al menos cuatro hallazgos.
 3. Priorización de tres hallazgos.
-4. Una conclusión breve: ¿la API debería desplegarse tal como está? Justifiquen la respuesta.
+4. Una conclusión breve: ¿La API debería desplegarse tal como está? Justifiquen la respuesta.
 
 ## Criterios de evaluación
 
